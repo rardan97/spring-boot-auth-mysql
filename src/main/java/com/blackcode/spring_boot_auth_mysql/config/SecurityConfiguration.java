@@ -1,6 +1,5 @@
 package com.blackcode.spring_boot_auth_mysql.config;
 
-import com.blackcode.spring_boot_auth_mysql.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
