@@ -11,7 +11,7 @@
             <a class="navbar-brand" href="#">BlackCode</a>
             <form class="d-flex" role="search">
                 <a class="btn btn-success me-2" href="/" th:href="@{/login}">Login</a>
-                <a class="btn btn-primary" href="/" th:href="@{/register}">Register</a>
+                <a class="btn btn-outline-success" href="/" th:href="@{/register}">Register</a>
             </form>
         </div>
     </nav>
@@ -27,7 +27,7 @@
                         <h1>Registration</h1>
                     </div>
                     <div class="card-body">
-                        <form th:action="@{/register}" method="POST" th:object="${user}">
+                        <form th:action="@{/register}" method="POST" th:object="${user}" autocomplete="off">
                                 <div class="form-group">
                                     <label class="control-label" for="firstName">First Name</label>
                                     <input id="firstName" class="form-control" th:field="*{firstName}" required autofocus="autofocus" />
