@@ -1,9 +1,9 @@
 ## Spring boot - Simple Auth Login and Register
 
 ## System Requirements
-- Java openjdk : ( version "17.0.2")
+- Java openjdk : ( version 17.0.2)
 - Spring Boot : (version 3.2.5)
-- H2 Database Engine : (Version 2.2.224 (2023-09-17))
+- MySQL Database
 - Maven : (Apache Maven 3.9.3)
 - Editor : (Intellij IDEA 2023.1.1 Community Edition)
 
